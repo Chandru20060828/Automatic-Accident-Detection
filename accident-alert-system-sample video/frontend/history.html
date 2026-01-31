@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accident History</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📜 Accident History</h1>
+  </header>
+
+  <main>
+    <button onclick="window.location.href='index.html'">⬅ Dashboard</button>
+    <input type="text" id="historySearch" placeholder="Search by location/date">
+    <button onclick="searchHistory()">Search</button>
+
+    <table border="1" id="historyTable">
+      <tr>
+        <th>ID</th>
+        <th>Timestamp</th>
+        <th>Location</th>
+        <th>Map</th>
+        <th>Speed</th>
+      </tr>
+    </table>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

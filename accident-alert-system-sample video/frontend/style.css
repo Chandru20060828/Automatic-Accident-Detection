@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #005b96;
+  color: white;
+  padding: 15px;
+}
+
+input {
+  padding: 5px;
+  width: 200px;
+  margin: 5px 5px 10px 0;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.alert-box {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.alert-danger { background: #f8d7da; color: #721c24; }
+.alert-success { background: #d4edda; color: #155724; }
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+/* Optional highlight for recent accidents (dashboard) */
+.recent { background: #f8d7da; }

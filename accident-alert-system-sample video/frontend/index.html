@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accident Alert Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚨 Accident Alert Dashboard</h1>
+  </header>
+
+  <main>
+    <!-- Search / View History -->
+    <section>
+      <h2>Search Accidents</h2>
+      <input type="text" id="searchInput" placeholder="Enter location or date">
+      <button onclick="searchAccidents()">Search</button>
+      <button onclick="window.location.href='history.html'">View Accident History</button>
+      <div id="alertBox" class="alert-box"></div>
+    </section>
+
+    <!-- Recent Accidents Table -->
+    <section>
+      <h2>Recent Accidents</h2>
+      <table border="1" id="accidentTable">
+        <tr>
+          <th>Timestamp</th>
+          <th>Location</th>
+          <th>Map</th>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
